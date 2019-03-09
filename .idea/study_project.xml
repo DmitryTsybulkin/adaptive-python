@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="StudySettings">
+    <StudyTaskManager>
+      <option name="course">
+        <RemoteCourse>
+          <option name="adaptive" value="true" />
+          <option name="authors">
+            <list />
+          </option>
+          <option name="compatible" value="true" />
+          <option name="courseMode" value="Study" />
+          <option name="courseType" value="PyCharm" />
+          <option name="description" value="This is a Stepik Adaptive course.&#10;&#10;Adaptive problem set to learn Python. &#13;&#10;Join the course and you can try out the first prototype of the adaptive engine! &#10;&#10;Initially, the adaptive system may behave somewhat randomly, but the more problems you solve, the smarter it becomes!" />
+          <option name="id" value="568" />
+          <option name="instructors">
+            <list />
+          </option>
+          <option name="language" value="Python" />
+          <option name="languageCode" value="en" />
+          <option name="lessons">
+            <list>
+              <Lesson>
+                <option name="id" value="27978" />
+                <option name="index" value="1" />
+                <option name="name" value="Adaptive" />
+                <option name="updateDate" />
+                <option name="taskList">
+                  <list>
+                    <CodeTask>
+                      <option name="additionalFiles">
+                        <map />
+                      </option>
+                      <option name="index" value="1" />
+                      <option name="name" value="Hello world!" />
+                      <option name="status" value="Solved" />
+                      <option name="stepId" value="98994" />
+                      <option name="taskTexts">
+                        <map>
+                          <entry key="task" value="&lt;p&gt;&lt;span&gt;Print &quot;Hello, world!&quot;&lt;/span&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Memory limit&lt;/b&gt;: 256 Mb&lt;br&gt;&lt;b&gt;Time limit&lt;/b&gt;: 5s&lt;br&gt;&lt;br&gt;" />
+                        </map>
+                      </option>
+                      <option name="testsText">
+                        <map>
+                          <entry key="tests.py" value="from test_helper import check_samples&#10;&#10;if __name__ == '__main__':&#10;    check_samples(samples=[])" />
+                        </map>
+                      </option>
+                      <option name="updateDate" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="task.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="index" value="0" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="task.py" />
+                                <option name="text" value="# put your python code here" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                    </CodeTask>
+                    <CodeTask>
+                      <option name="additionalFiles">
+                        <map />
+                      </option>
+                      <option name="index" value="2" />
+                      <option name="name" value="Calculator" />
+                      <option name="status" value="Solved" />
+                      <option name="stepId" value="93553" />
+                      <option name="taskTexts">
+                        <map>
+                          <entry key="task" value="&lt;p&gt;&lt;b&gt;Calculator&lt;/b&gt;&lt;/p&gt;&#10;&#10;&lt;p&gt;Write a simple calculator that reads the three input lines: the&#10;first number, the second number and the operation, after which it applies the&#10;operation to the entered numbers (&quot;first number&quot;&#10;&quot;operation&quot; &quot;second number&quot;) and outputs the result to the&#10;screen. Note that the numbers can be real.&lt;/p&gt;&#10;&#10;&lt;p&gt;Supported&#10;operations: +, -, /, *, mod, pow, div;&#10;where &lt;br&gt;&#10;mod — taking the residue, &lt;br&gt;&#10;pow — exponentiation, &lt;br&gt;&#10;div — integer division.&lt;/p&gt;&#10;&#10;&lt;p&gt;If a user performs the division and the second number is 0, it is&#10;necessary to output the line &quot;Division by 0!&quot;.&lt;/p&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;5.0&lt;br&gt;0.0&lt;br&gt;mod&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;Division by 0!&lt;br&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;-12.0&lt;br&gt;-8.0&lt;br&gt;*&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;96.0&lt;br&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;5.0&lt;br&gt;10.0&lt;br&gt;/&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;0.5&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Memory limit&lt;/b&gt;: 256 Mb&lt;br&gt;&lt;b&gt;Time limit&lt;/b&gt;: 5s&lt;br&gt;&lt;br&gt;" />
+                        </map>
+                      </option>
+                      <option name="testsText">
+                        <map>
+                          <entry key="tests.py" value="from test_helper import check_samples&#10;&#10;if __name__ == '__main__':&#10;    check_samples(samples=[[&quot;5.0\n0.0\nmod&quot;,&quot;Division by 0!&quot;],[&quot;-12.0\n-8.0\n*&quot;,&quot;96.0&quot;],[&quot;5.0\n10.0\n/&quot;,&quot;0.5&quot;]])" />
+                        </map>
+                      </option>
+                      <option name="updateDate" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="task.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="index" value="0" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="task.py" />
+                                <option name="text" value="# put your python code here" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                    </CodeTask>
+                    <CodeTask>
+                      <option name="additionalFiles">
+                        <map />
+                      </option>
+                      <option name="index" value="3" />
+                      <option name="name" value="Reversing" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepId" value="97412" />
+                      <option name="taskTexts">
+                        <map>
+                          <entry key="task" value="&lt;p&gt;Write a program that reads a three digit number, calculates the new number by reversing its digits, and outputs a new number.&lt;/p&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;287&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;782&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Memory limit&lt;/b&gt;: 256 Mb&lt;br&gt;&lt;b&gt;Time limit&lt;/b&gt;: 5s&lt;br&gt;&lt;br&gt;" />
+                        </map>
+                      </option>
+                      <option name="testsText">
+                        <map>
+                          <entry key="tests.py" value="from test_helper import check_samples&#10;&#10;if __name__ == '__main__':&#10;    check_samples(samples=[[&quot;287&quot;,&quot;782&quot;]])" />
+                        </map>
+                      </option>
+                      <option name="updateDate" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="task.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="index" value="0" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="task.py" />
+                                <option name="text" value="# put your python code here" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                    </CodeTask>
+                  </list>
+                </option>
+              </Lesson>
+            </list>
+          </option>
+          <option name="loadSolutions" value="true" />
+          <option name="name" value="Adaptive Python" />
+          <option name="public" value="true" />
+          <option name="sections">
+            <list>
+              <option value="1785" />
+              <option value="1786" />
+            </list>
+          </option>
+          <option name="type" value="pycharm Python" />
+          <option name="updateDate" value="1521145959000" />
+        </RemoteCourse>
+      </option>
+      <option name="toolWindowMode" value="TEXT" />
+      <option name="turnEditingMode" value="false" />
+      <option name="VERSION" value="8" />
+      <option name="myUserTests">
+        <map />
+      </option>
+    </StudyTaskManager>
+  </component>
+</project>
